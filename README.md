@@ -4,6 +4,7 @@ Jftp is java plugin used to upload files to server using ftp.After first upload 
 ### Requirments
 - Latest version of java
 - Also make sure that any kind of firewall is not blocking jftp
+
 ### Config file
 Ftp details should be stored in json file jftpconfig.json
 ```
