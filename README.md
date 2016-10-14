@@ -38,48 +38,51 @@ java -jar jftpv1.0.1.jar <argument1> <argument2>...
 
 ### Available options are
 - Upload files to server
-    ```sh
+    ```
     java -jar jftpv1.0.1.jar
+    
     java -jar jftpv1.0.1.jar config1
     ```
     - First will upload `default` config items to server 
     - Second will upload items with config name  `config1` to server
 - Mark files as uploaded
-    ```sh
+    ```
     java -jar jftpv1.0.1.jar -uploaded
+    
     java -jar jftpv1.0.1.jar -uploaded config1
     ```
      - First will mark `default` config items to as uploaded and will not upload to server  
     - Second will mark items with config name `config1`  as uploaded and will not upload to server  
 - Status
-    ```sh
+    ```
     java -jar jftpv1.0.1.jar -status
+    
     java -jar jftpv1.0.1.jar -status config1
     ```
     - First will show status of `default` config
     - Second will show status of items with config name `config1`
 - Test ftp credentials
-    ```sh
+    ```
     java -jar jftpv1.0.1.jar -test
+    
     java -jar jftpv1.0.1.jar -test config1
     ```
     - First will test ftp  of `default` config
     - Second will test ftp  of of item with config name `config1`
 - Get version
-  ```sh
+  ```
     java -jar jftpv1.0.1.jar -v
+    
     java -jar jftpv1.0.1.jar -version
     ```
 - Get help
-  ```sh
+  ```
     java -jar jftpv1.0.1.jar -h
+    
     java -jar jftpv1.0.1.jar -help
     ```
     
 
 License
 ----
-
 MIT
-
-
