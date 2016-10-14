@@ -3,6 +3,7 @@
 Jftp is java plugin used to upload files to server using ftp.After first upload it will automatically detects changed file so that next time it will upload changed files only.
 ### Requirments
 Latest version of java
+Also make sure that any kind of firewall is not blocking jftp
 ### Config file
 Ftp details should be stored in json file jftpconfig.json
 ```
