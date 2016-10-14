@@ -1,0 +1,15 @@
+{
+    "default": "config1",
+    "config1":{
+        "host":"ftp.example.com",
+        "username":"user",
+        "password":"password",
+        "port":"21",
+        "localroot":"C://xampp/htdocs/someproject",
+        "serverroot":"public_html/something"
+        "ignore":[
+            "/some/file",
+            "/some/folder"
+        ]
+    }
+}
