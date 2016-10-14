@@ -52,7 +52,7 @@ java -jar jftpv1.0.1.jar <argument1> <argument2>...
     java -jar jftpv1.0.1.jar -uploaded config1
     ```
      - First will mark `default` config items to as uploaded and will not upload to server  
-    - Second will mark items with config name `config1`  as uploaded and will not upload to server  
+     - Second will mark items with config name `config1`  as uploaded and will not upload to server  
 - Status
     ```
     java -jar jftpv1.0.1.jar -status
